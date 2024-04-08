@@ -24,6 +24,7 @@ const nextConfig = {
     dangerouslyAllowSVG: true,
     domains: ['placehold.co', 'placehold.it'],
   },
+  output: 'standalone',
 };
 
 const plugins = [
