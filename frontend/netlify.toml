@@ -1,0 +1,5 @@
+# netlify.toml
+
+[build]
+  command = "yarn nx build web && yarn nx export web"
+  publish = "dist/web/out" # The directory with your Next.js static files after export

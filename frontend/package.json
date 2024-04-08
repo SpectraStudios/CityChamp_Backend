@@ -11,7 +11,7 @@
     "build": "nx build web",
     "dev": "nx serve web",
     "demo": "npx ts-node -P web/tsconfig.json -r tsconfig-paths/register",
-    "start": "cd dist/web && next start -p 3000 -H 0.0.0.0"
+    "start": "cd dist/web && next start -p $PORT"
   },
   "private": true,
   "dependencies": {
