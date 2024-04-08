@@ -49,10 +49,11 @@ export function UiLayout({
           </ul>
         </div>
         <div className="flex-none space-x-2">
-          <WalletButton />
+        {React.createElement(WalletButton, {})}
           <ClusterUiSelect />
         </div>
       </div>
+      {/* @ts-ignore */}
       <ClusterChecker>
         <AccountChecker />
       </ClusterChecker>

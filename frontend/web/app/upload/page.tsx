@@ -216,11 +216,11 @@ export default function UploadPage() {
                                     <p>GPS Coordinates</p>
                                     <div className="flex justify-between items-center">
                                         <div className="flex items-center">
-                                            <input type="text" placeholder="Latitude" value={latitude} onChange={(e) => setLatitude(e.target.value)} className="border rounded bg-white" />
+                                            <input type="text" placeholder="Latitude" value={latitude || ''} onChange={(e) => setLatitude(e.target.value)} className="border rounded bg-white" />
                                             <span className="ml-2">Lat</span>
                                         </div>
                                         <div className="flex items-center">
-                                            <input type="text" placeholder="Longitude" value={longitude} onChange={(e) => setLongitude(e.target.value)} className="border rounded bg-white" />
+                                            <input type="text" placeholder="Longitude" value={longitude || ''} onChange={(e) => setLongitude(e.target.value)} className="border rounded bg-white" />
                                             <span className="ml-2">Long</span>
                                         </div>
                                     </div>

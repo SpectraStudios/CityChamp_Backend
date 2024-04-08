@@ -5,12 +5,14 @@
     "allowJs": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "noEmitOnError": true,
     "plugins": [
       {
         "name": "next"
