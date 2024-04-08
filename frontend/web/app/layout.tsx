@@ -5,8 +5,8 @@ import { SolanaProvider } from '@/components/solana/solana-provider';
 import { ReactQueryProvider } from './react-query-provider';
 
 export const metadata = {
-  title: 'City Champ',
-  description: 'City Champ',
+  title: 'MeshMap',
+  description: 'MeshMap',
 };
 
 const links: { label: string; path: string }[] = [
