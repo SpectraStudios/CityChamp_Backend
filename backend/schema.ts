@@ -87,8 +87,8 @@ export const lists: Lists = {
     access: allowAll,
     fields: {
       scanID: text({ isIndexed: 'unique' }),
-      coordX: float(),
-      coordY: float(),
+      latitude: float(),
+      longitude: float(),
       scan: text(),
     },
   }),

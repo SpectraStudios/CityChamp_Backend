@@ -79,8 +79,8 @@ model Level {
 model Scan {
   id                Int     @id @default(autoincrement())
   scanID            String  @unique @default("")
-  coordX            Float?
-  coordY            Float?
+  latitude          Float?
+  longitude         Float?
   scan              String  @default("")
   from_Level_scanID Level[] @relation("Level_scanID")
 }

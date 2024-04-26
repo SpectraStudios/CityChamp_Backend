@@ -455,8 +455,8 @@ input ScanRelateToOneForCreateInput {
 type Scan {
   id: ID!
   scanID: String
-  coordX: Float
-  coordY: Float
+  latitude: Float
+  longitude: Float
   scan: String
 }
 
@@ -471,23 +471,23 @@ input ScanWhereInput {
   NOT: [ScanWhereInput!]
   id: IDFilter
   scanID: StringFilter
-  coordX: FloatNullableFilter
-  coordY: FloatNullableFilter
+  latitude: FloatNullableFilter
+  longitude: FloatNullableFilter
   scan: StringFilter
 }
 
 input ScanOrderByInput {
   id: OrderDirection
   scanID: OrderDirection
-  coordX: OrderDirection
-  coordY: OrderDirection
+  latitude: OrderDirection
+  longitude: OrderDirection
   scan: OrderDirection
 }
 
 input ScanUpdateInput {
   scanID: String
-  coordX: Float
-  coordY: Float
+  latitude: Float
+  longitude: Float
   scan: String
 }
 
@@ -498,8 +498,8 @@ input ScanUpdateArgs {
 
 input ScanCreateInput {
   scanID: String
-  coordX: Float
-  coordY: Float
+  latitude: Float
+  longitude: Float
   scan: String
 }
 
